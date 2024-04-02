@@ -18,6 +18,7 @@ class ResponsiveScaffoldWithSideBar extends StatelessWidget {
               centerTitle: false,
             )
           : null,
+          backgroundColor: Color.fromARGB(255, 23, 31, 52),
       drawer: context.isMobile()
           ? Drawer(
               backgroundColor: secodnary,
@@ -38,7 +39,7 @@ class ResponsiveScaffoldWithSideBar extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Divider(),
+                  const Divider(),
                   SideBarListTile(
                       icon: Icons.dashboard,
                       title: 'Dashboard',

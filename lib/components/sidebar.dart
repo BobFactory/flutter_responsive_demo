@@ -65,17 +65,6 @@ class _SideBarDesktopView extends StatelessWidget {
         children: [
           const SizedBox(
             height: 100,
-            child: Center(
-              child: Text(
-                "Responsive Demo",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 1.1,
-                  fontSize: 18,
-                ),
-              ),
-            ),
           ),
           const Divider(),
           const SizedBox(height: 60),
